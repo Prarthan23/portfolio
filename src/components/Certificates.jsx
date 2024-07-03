@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import certi1 from '../assets/devang mehta certificate.jpg'
 import certi2 from '../assets/devang mehta certificate2.jpg'
+import certi3 from '../assets/java_basic certificate_page-0001.jpg'
 const Certificates = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-4 py-8 bg-slate-900'>
@@ -12,9 +13,11 @@ const Certificates = () => {
             </div>
             <div className='flex flex-col gap-6 justify-center items-center md:flex-row md:gap-12'>
                 <img src={certi2} alt='certificate2' className='order-1 h-44 w-60 md:h-1/3 md:w-1/3 md:order-2'></img>
-                <p className='text-justify text-blue-300 order-2 md:order-1'>The Dewang Mehta Foundation Trust's recognition is particularly significant as it comes from an organization known for promoting excellence and innovation in the IT industry. The Smart Helmet project’s shortlisting for the 2023 IT Awards highlights its innovative approach to enhancing safety through technology. This project not only exemplifies the practical application of engineering principles but also addresses a real-world problem, showcasing the potential for positive societal impact.
-
-Receiving this certificate is a noteworthy achievement for Prarthan Parmar and the team, as it validates their hard work and creativity. It also brings prestige to Sardar Patel College of Engineering, illustrating the high quality of education and mentorship provided by the institution, represented by Mr. Anuj Patel, the Head of the Department. The acknowledgment from industry leaders like Harish Mehta and Jaimin Shah further emphasizes the project’s significance and the potential it holds for future development and implementation.</p>
+                <p className='text-justify text-blue-300 order-2 md:order-1'>The Dewang Mehta Foundation Trust's recognition is particularly significant as it comes from an organization known for promoting excellence and innovation in the IT industry. The Smart Helmet project’s shortlisting for the 2023 IT Awards highlights its innovative approach to enhancing safety through technology. This project not only exemplifies the practical application of engineering principles but also addresses a real-world problem, showcasing the potential for positive societal impact.Receiving this certificate is a noteworthy achievement for Prarthan Parmar and the team, as it validates their hard work and creativity. It also brings prestige to Sardar Patel College of Engineering, illustrating the high quality of education and mentorship provided by the institution, represented by Mr. Anuj Patel, the Head of the Department. The acknowledgment from industry leaders like Harish Mehta and Jaimin Shah further emphasizes the project’s significance and the potential it holds for future development and implementation.</p>
+            </div>
+            <div className='flex flex-col gap-6 justify-center items-center md:flex-row md:gap-12'>
+                <img src={certi3} alt='certificate2' className='order-2 h-44 w-60 md:h-1/3 md:w-1/3 md:order-1'></img>
+                <p className='text-justify text-blue-300 order-2 md:order-1'>I have earned a Java Basics Certificate from HackerRank, demonstrating my proficiency in foundational Java programming skills. This certification attests to my ability to write, analyze, and debug Java code effectively. It covers key concepts such as object-oriented programming, data structures, algorithms, and exception handling. The rigorous assessment required a thorough understanding of Java syntax and practical problem-solving abilities. This achievement reflects my commitment to continuous learning and my capability to apply Java in real-world scenarios. It serves as a testament to my skills and dedication as a competent and reliable Java developer.</p>
             </div>
         </div>
     </div>
