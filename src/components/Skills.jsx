@@ -11,7 +11,7 @@ import skill8 from '../assets/w3_css-icon.svg'
 const Skills = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-4 py-8 bg-slate-900'>
-      <h3 className='text-4xl text-cyan-200 font-semibold mb-4'>Skiils</h3>
+      <h3 className='text-4xl text-cyan-200 font-semibold mb-4'>Skills</h3>
       <div className='flex flex-col gap-6 px-10 md:grid md:grid-cols-4'>
       <div className='flex flex-col justify-center items-center px-10 gap-3'>
             <img src={skill1} alt='react' className='h-24'></img>
