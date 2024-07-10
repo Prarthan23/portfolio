@@ -8,7 +8,7 @@ const HeroContent = () => {
         <div className='text-justify font-semibold text-teal-300 leading-10  md:leading-normal max-w-md md:text-3xl font-oswald'>
           Hi there! I'm an enthusiastic web developer specializing in the MERN stack. I bring fresh ideas, a passion for coding, and a dedication to delivering high-quality work.
         </div>
-        <a href="/Prarthan Resume.pdf" download>
+        <a href="/Prarthan Parmar Resume.pdf" download>
         <button className='bg-teal-500 text-white  py-3 px-5 mt-8 rounded-md hover:bg-teal-700 font-semibold'>Get Resume</button>
         </a>
        
